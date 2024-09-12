@@ -29,7 +29,7 @@ function validateForm(event) {
         return false;
     }
 
-    alert(`Login Successfully - ${username}`);
+    alert(`Registered Successfully - ${username}`);
     return true;
 }
 
