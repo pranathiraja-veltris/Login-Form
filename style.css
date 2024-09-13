@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-image:url("images/background.jpg");
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+ 
+.login-container {
+    background-color:#fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+}
+ 
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+ 
+.input-container {
+    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+}
+ 
+.input-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+}
+ 
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+}
+ 
+.input-container input:focus {
+    border-color: #007bff;
+}
+ 
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    cursor: pointer;
+}
+ 
+.options {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+.options label {
+    font-size: 14px;
+    color: #666;
+}
+ 
+.options a {
+    font-size: 14px;
+    color: #007bff;
+}
+ 
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    }
+ 
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+ 
+.footer {
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+    }

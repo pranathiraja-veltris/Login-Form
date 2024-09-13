@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-container">
+<form class="login-form" id="loginForm">
+ 
+  <div>
+<a href = "https://www.veltris.com/" target="_blank">
+<img src="images/download.jpg" width=250px padding= 30px margin-bottom=20px >
+</a>
+</div>
+<br>
+ 
+            <h1>Account Login</h1>
+<br>
+<div class="input-container">
+<label>Username</label>
+<input type="email" id="username" placeholder="Enter your username" required>
+</div>
+<div class="input-container">
+<label>Password</label>
+<input type="password" id="password" placeholder="Enter your password" required>
+<span class="toggle-password" onclick="togglePassword()">&#128065;</span>
+</div>
+<div class="options">
+<label>
+<input type="checkbox" id="remember-me">
+                    Remember me
+</label>
+<a href="" class="forgot-password">Forgot Password?</a>
+</div>
+<button type="submit" onclick="validateForm()">Login</button>
+<p id="error-message" class="error-message"></p>
+</form>
+</div>
+<div class="footer">
+<p> &copy;copyright veltris for more info contact: pranathi.raja@veltris.com</p>
+</div>
+<script src="loginform.js"></script>
+ 
+</body>
+</html>
